@@ -1,0 +1,29 @@
+import cmath
+
+z1 = complex(1, 1)
+z2 = complex(3, -1)
+z3 = complex(-1, 1)
+
+# Сумма
+sum_result = z1 + z2
+print("Сумма:", sum_result)
+
+# Разность
+diff_result = z1 - z2
+print("Разность:", diff_result)
+
+# Произведение
+product_result = z1 * z2
+print("Произведение:", product_result)
+
+# Частное
+quotient_result = z1 / z2
+print("Частное:", quotient_result)
+
+# Четвертая степень числа z1
+z1_pow4 = z1 ** 4
+print("Четвертая степень числа z1:", z1_pow4)
+
+# Корень третьей степени числа z3
+z3_cbrt = cmath.cbrt(z3)
+print("Корень третьей степени числа z3:", z3_cbrt)
